@@ -37,7 +37,7 @@ The CNN model uses:
 ## 📁 File Structure
 
 ```bash
-.
+
 handwritten-digit-recognition/
 │
 ├── model/                        # Folder for model training-related code
