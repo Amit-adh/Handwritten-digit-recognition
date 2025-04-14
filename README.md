@@ -80,11 +80,6 @@ The CNN model uses:
 - Final softmax layer for digit classification
 
 ---
-
-## 📁 File Structure
-
-```bash
-.
 ├── model/
 │   └── model_trainer.py        # Script to train and save the model
 ├── digit_gui.py                # Main GUI app for drawing and prediction
