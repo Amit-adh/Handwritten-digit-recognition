@@ -38,11 +38,22 @@ The CNN model uses:
 
 ```bash
 .
-├── model/
-│   └── model_trainer.py        # Script to train and save the model
-├── digit_gui.py                # Main GUI app for drawing and prediction
-├── Handwritten_digits.keras    # Trained model file
-├── user_images/
-│   └── test1.png               # Sample test images (optional)
-└── README.md
+handwritten-digit-recognition/
+│
+├── model/                        # Folder for model training-related code
+│   └── model_trainer.py          # Script to train and save the model
+│
+├── gui/                          # Folder for the graphical user interface
+│   └── digit_gui.py              # Main GUI app for drawing and prediction
+│
+├── saved_models/                 # Folder for storing trained model files
+│   └── Handwritten_digits.keras  # Trained model file
+│
+├── user_images/                  # Optional folder for storing test images
+│   └── test1.png                 # Sample test images (optional)
+│   └── test2.png                 # ...
+│
+├── README.md                     # Project description and setup instructions
+└── requirements.txt              # List of dependencies required for the project
+
 ```
