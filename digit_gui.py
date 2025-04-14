@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = load_model("Handwritten_digits.keras")
+model = load_model("saved_models/Handwritten_digits.keras")
 
 
 class DrawApp:
