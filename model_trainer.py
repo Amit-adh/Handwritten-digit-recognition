@@ -36,4 +36,4 @@ model.compile(optimizer="Adam", loss=CategoricalCrossentropy(from_logits=False),
 model.fit(x_train, y_train, epochs=10, validation_data=(x_test, y_test))
 
 # Save the trained model
-model.save("Handwritten_digits.keras")
+model.save("saved_models/Handwritten_digits.keras")
