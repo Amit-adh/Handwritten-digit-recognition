@@ -52,7 +52,9 @@ handwritten-digit-recognition/
 ├── user_images/                  # Optional folder for storing test images
 │   └── test1.png                 # Sample test images (optional)
 │   └── test2.png                 # ...
-│
+|
+├──model_tester.py                # For testing the model on the test images
+|
 ├── README.md                     # Project description and setup instructions
 └── requirements.txt              # List of dependencies required for the project
 
