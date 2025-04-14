@@ -1,11 +1,11 @@
 import os
+import keras
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-from keras.models import load_model
 
 # Load the trained model
-model = load_model("saved_models/Handwritten_digits.keras")
+model = keras.models.load_model("saved_models/Handwritten_digits.keras")
 
 def test_try():
     image_num = 1
