@@ -4,12 +4,11 @@ import numpy as np
 import cv2
 import tkinter as tk
 from tkinter import ttk
-from keras.src.models import load_model
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = load_model("saved_models/Handwritten_digits.keras")
+model = keras.models.load_model("saved_models/Handwritten_digits.keras")
 
 
 class DrawApp:
