@@ -59,3 +59,22 @@ handwritten-digit-recognition/
 └── requirements.txt              # List of dependencies required for the project
 
 ```
+
+---
+
+## 📦 Requirements
+
+- Python 3.x
+- `tensorflow` / `keras`
+- `numpy`
+- `opencv-python`
+- `Pillow`
+- `matplotlib`
+
+---
+
+## 📜 License
+
+This project is open source under the MIT License.
+
+---
