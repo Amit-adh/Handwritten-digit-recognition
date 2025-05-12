@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = keras.models.load_model("../saved_models/Handwritten_digits.keras")
+model = keras.models.load_model("./saved_models/Handwritten_digits.keras")
 
 
 class DrawApp:

@@ -5,7 +5,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = keras.models.load_model("../saved_models/Handwritten_digits.keras")
+model = keras.models.load_model("./saved_models/Handwritten_digits.keras")
 
 
 def test_try():
